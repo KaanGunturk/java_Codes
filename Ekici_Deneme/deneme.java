@@ -19,7 +19,7 @@ public class deneme {
             else {
                 System.out.println("Artik yik degil.");
 
-            }
+            } //aaaaaa
         }
 
         else {

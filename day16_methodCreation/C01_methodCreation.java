@@ -1,6 +1,6 @@
 package day16_methodCreation;
 
-public class day16_methodCreation {
+public class C01_methodCreation {
     public static void main(String[] args) {
         // Soru 6) Kullanicidan bir sifre girmesini isteyin.
         // Asagidaki sartlari sagliyorsa “Sifre basari ile tanimlandi”,
@@ -43,7 +43,7 @@ public class day16_methodCreation {
         return boslukKontrolSonuc;
     }
     private static boolean sonHarfKontrolEt(String sifre) {
-        boolean sonHarfSonuc=false;
+        boolean sonHarfSonuc;
         char sonHarf=sifre.charAt(sifre.length()-1);
         if (sonHarf>='a' && sonHarf<='z'){
             sonHarfSonuc=true;
@@ -55,7 +55,7 @@ public class day16_methodCreation {
     }
     private static boolean ilkHarfKontrolEt(String sifre) {
         char ilkHarf=sifre.charAt(0);
-        boolean ilkHarfSonuc=false;
+        boolean ilkHarfSonuc;
         if (ilkHarf >= 'A' && ilkHarf<='Z'){
             ilkHarfSonuc=true;
         }else {

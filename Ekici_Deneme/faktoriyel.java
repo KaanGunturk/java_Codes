@@ -1,5 +1,7 @@
 package Ekici_Deneme;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class faktoriyel {
@@ -18,6 +20,9 @@ public class faktoriyel {
             System.out.println(carpim);
         }else {
             System.out.println("Sayi 10 dan kucuk olmali");
+
+
         }
+
     }
 }

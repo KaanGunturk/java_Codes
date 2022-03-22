@@ -3,6 +3,7 @@ import java.util.Arrays;
 public class C03_Arrays {
 
     public static void main(String[] args) {
+
         int arr[];  // deger atamasi yapmadik ama Java kabul etti ancak kullanmamiza izin vermez
         arr= new int[6];
         System.out.println(Arrays.toString(arr)); // [0, 0, 0, 0, 0, 0]

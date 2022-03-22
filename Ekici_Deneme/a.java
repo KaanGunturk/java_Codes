@@ -8,5 +8,6 @@ public class a {
         String isim2 = isim1+"";
 
         System.out.println(isim2);
+
     }
 }

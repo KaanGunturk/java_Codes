@@ -3,7 +3,7 @@ package Ekici_Deneme;
 public class asal {
     public static void main(String[] args) {
 
-        int num = 50;
+        int num = 1;
 
 
         if (asalMi(num)){
